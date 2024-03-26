@@ -1,0 +1,86 @@
+.contact-container {
+    padding: 50px 0; /* Adjust padding as needed */
+
+  }
+
+  .contact-container {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #contact-form {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 100px 0; /* Adjust top and bottom padding as needed */
+    color: #000; /* Text color */
+  }
+  
+  .title-wrap {
+    margin-bottom: 50px; /* Margin below title */
+  }
+  
+  .contact-head{
+    color: #000;
+    font-size: 36px; 
+    font-weight: 400; 
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px; 
+  }
+  
+  .tech-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .contact-form-holder {
+    background-color: rgba(255, 255, 255, 0.9); /* Background color for form */
+    padding: 40px; /* Padding inside form */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Spacing between form fields */
+    border: 1px solid #091627; /* Border color */
+    border-radius: 5px; /* Rounded corners for form fields */
+  }
+  
+  textarea.form-control {
+    height: 150px; /* Adjust height of textarea */
+  }
+
+  
+  .text-grey {
+    color: #666; /* Gray text color */
+  }
+  
+  /* Where to Find Us section */
+  .section-content.pt-0 {
+    background-color: rgba(255, 255, 255, 0.9); /* Background color for Where to Find Us section */
+    padding: 50px; /* Padding inside section */
+    margin-top: 50px; /* Margin above section */
+  }
+  
+  .section-content.pt-0 .row {
+    margin-top: 30px;
+  }
+  
+  .lnr {
+    font-size: 40px; /* Icon size */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .blog {
+      font-size: 30px; /* Adjust title font size for smaller screens */
+    }
+  }
+  

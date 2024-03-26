@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
-import style from './Navbar.module.css'
-
+import './Navbar.css';
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
@@ -21,16 +19,12 @@ function Navbar() {
     }
   };
 
-  return (    
+  return (
     <div>
-      <nav className={`${style.customNavbar} navbar 'navbar-expand-lg' ${scrolling ? 'navbar-scroll' : ''}`}>
-       {/* baat sun sab se pehly jese agar tu ksi bootstrap component ko custom styling dena chahta tw us ka naam boot
-       bootstrap k component class se alag rakh */}
-       <link rel="icon" href="%PUBLIC_URL%/Assets/logo/logo-main.png" />
-
-        <img className='navbar-brand' src={'../../../public/Assets/logo/logo-main.png'} height={150} width={200} alt="logo" />
-        <div className="container-fluid container">
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <nav className={`navbar navbar-expand-lg ${scrolling ? 'navbar-scroll' : ''}`}>
+        <div className="container-fluid">
+          <img className='navbar-brand' src={'/Assets/logo/logo-main.png'} height={150} width={200} alt="logo" />
+          <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse float-right" id="navbarNavDropdown">
@@ -50,8 +44,6 @@ function Navbar() {
                 </a>
                 <ul className="dropdown-menu custom-dropdown">
                   <li><a className="dropdown-item" href="/">Rei Shark</a></li>
-                  {/* <li><a className="dropdown-item" href="/">Graphic Designing</a></li>
-                  <li><a className="dropdown-item" href="/">Programming</a></li> */}
                 </ul>
               </li>
               <li className="nav-item mx-3">
