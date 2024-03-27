@@ -1,0 +1,151 @@
+.card {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    height:90%;
+    padding: 40px 20px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card i {
+    transition: color 0.3s ease;
+}
+
+.card:hover i {
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card:hover .cardTitle {
+    color: white;
+}
+.card:hover .cardText {
+    color: white;
+}
+
+.card.border-blue:hover {
+    background-color: #2db6fa;
+}
+
+.card.border-green:hover {
+    background-color: #28a745;
+}
+
+.card.border-yellow:hover {
+    background-color: #d63384;
+}
+
+.card.border-red:hover {
+    background-color: #dc3545;
+}
+
+.card.border-orange:hover {
+    background-color: #fd7e14;
+}
+
+.card.border-purple:hover {
+    background-color: #6f42c1;
+}
+
+.cardTitle {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    text-align: center; 
+    transition: color 0.5s ease;
+}
+
+.cardText {
+    color: #333;
+    font-size: 1.2rem;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    text-align: center; 
+    transition: color 0.5s ease;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+.border-blue {
+    border-bottom: 3px solid #2db6fa;
+}
+
+.border-green {
+    border-bottom: 3px solid #28a745;
+}
+
+.border-yellow {
+    border-bottom: 3px solid #d63384;
+}
+
+.border-red {
+    border-bottom: 3px solid #dc3545;
+}
+
+.border-purple {
+    border-bottom: 3px solid #6f42c1;
+}
+
+.border-orange {
+    border-bottom: 3px solid #fd7e14;
+}
+
+@media (max-width: 768px) {
+
+    .card.border-blue {
+        background-color: #2db6fa;
+    }
+    
+    
+    .card.border-pink {
+        background-color: #d63384;
+    }
+
+    
+    .card.border-purple {
+        background-color: #6f42c1;
+    }
+    .border-blue i {
+        color: white;
+    }
+    
+    .border-blue .cardTitle {
+        color: white;
+    }
+    .border-blue .cardText {
+        color: white;
+    }
+
+    .border-purple i {
+        color: white;
+    }
+    
+    .border-purple .cardTitle {
+        color: white;
+    }
+    .border-purple .cardText {
+        color: white;
+    }
+
+    .border-pink i {
+        color: white;
+    }
+    
+    .border-pink .cardTitle {
+        color: white;
+    }
+    .border-pink .cardText {
+        color: white;
+    }
+
+
+}

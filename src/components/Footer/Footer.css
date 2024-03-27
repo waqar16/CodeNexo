@@ -41,12 +41,13 @@ ul {
   background-size: cover;
   background-position: 100% 100%;
 }
-.footer-logo {
-  
-  margin-bottom: 0px;
-}
+/* .footer-logo {
+align-items: center;
+margin: 0;
+} */
 .footer-logo img {
-    max-width: 200px;
+    width: 200px;
+
 }
 .footer-text p {
   margin-bottom: 14px;
@@ -101,7 +102,7 @@ ul {
 }
 .footer-widget ul li {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 50%;
   margin-bottom: 12px;
 }
@@ -158,4 +159,13 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+
+
+
+@media (max-width: 768px) {
+  .footer-logo img {
+    width: 280px;
+  
+  }
 }

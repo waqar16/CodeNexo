@@ -8,7 +8,6 @@
   
   .slider {
 	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: 100px;
 	margin: auto;
   margin-bottom: 150px;
@@ -19,7 +18,7 @@
   
   .slider::before,
   .slider::after {
-	background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
 	content: "";
 	height: 100px;
 	position: absolute;
@@ -66,21 +65,25 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px; 
 }
-
+/* 
 #carousel-head::after {
     content: "";
     width: 100px;
     position: absolute;
     margin: 0 auto;
     height: 4px;
-    border-radius: 2px; /* Increase border-radius for smoother edges */
+    border-radius: 2px; 
     background: #0047a4;
     left: 0;
     right: 0;
     bottom: -20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 #carousel-head strong{
 	color: #006eff;
+} */
+
+@media (max-width: 768px) {
+
 }

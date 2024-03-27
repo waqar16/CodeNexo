@@ -100,3 +100,24 @@
     transition: 0.5s ease;
     font-size: 18px !important;
   }
+
+  /* Media query for mobile screens */
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    padding: 20px;
+    top: 50%
+  }
+
+  .content h1 {
+    font-size: 33px !important;
+  }
+
+  .content span {
+    font-size: 18px !important;
+  }
+
+  .custom-btn-contact {
+    width: 150px;
+  }
+}

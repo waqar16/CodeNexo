@@ -1,7 +1,4 @@
-.contact-container {
-    padding: 50px 0; /* Adjust padding as needed */
 
-  }
 
   .contact-container {
     width: 100%;
@@ -13,12 +10,12 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 100px 0; /* Adjust top and bottom padding as needed */
+    /* padding: 1px 0;  */
     color: #000; /* Text color */
   }
   
   .title-wrap {
-    margin-bottom: 50px; /* Margin below title */
+    margin-bottom: 50px; 
   }
   
   .contact-head{
@@ -34,16 +31,12 @@
     letter-spacing: 1px; 
   }
   
-  .tech-subtitle {
+  /* .tech-subtitle {
     font-size: 18px;
     text-align: center;
-  }
+  } */
   
-  .contact-form-holder {
-    background-color: rgba(255, 255, 255, 0.9); /* Background color for form */
-    padding: 40px; /* Padding inside form */
-    border-radius: 10px; /* Rounded corners */
-  }
+
   
   .form-control {
     width: 100%;
@@ -63,24 +56,50 @@
   }
   
   /* Where to Find Us section */
-  .section-content.pt-0 {
-    background-color: rgba(255, 255, 255, 0.9); /* Background color for Where to Find Us section */
-    padding: 50px; /* Padding inside section */
-    margin-top: 50px; /* Margin above section */
+  /* .section-content.pt-0 {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 50px; 
+    margin-top: 50px; 
   }
   
   .section-content.pt-0 .row {
     margin-top: 30px;
-  }
+  } */
   
   .lnr {
     font-size: 40px; /* Icon size */
   }
+
+  .icon-large {
+    font-size: 80px; /* Adjust the font size to make the icon larger */
+}
+
+.custom-margin{
+  margin-top: 100px;
+
+}
   
   /* Media query for smaller screens */
   @media (max-width: 768px) {
-    .blog {
-      font-size: 30px; /* Adjust title font size for smaller screens */
+    .contact-head{
+      color: #000;
+      font-size: 23px; 
+      font-weight: 500; 
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      /* margin-bottom: 50px; */
+      /* margin-top: -40px; */
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 1px; 
     }
+    #contact-form {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      /* padding: 10px 0; */
+      color: #000; /* Text color */
+    }
+    
   }
   

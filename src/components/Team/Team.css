@@ -1,16 +1,18 @@
 .team-section {
-    min-height: 100vh;
-    margin-bottom: -200px;
+    min-height: 100%;
+    margin: 20px;
 }
 
 .team-section .bg-white {
     transition: background-color 0.6s, color 0.6s !important;
+    
 }
 
 .team-section .bg-white:hover {
     background-color: #091627 !important;
     transform: scale(1.05);
     color: white;
+    cursor: pointer;
 }
 
 .social-link {
@@ -54,6 +56,78 @@
     }
 }
 
-.animate-slide-in {
+@keyframes slideInFromUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromDown {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-slide-in-0 {
     animation: slideInFromLeft 0.5s ease-out;
+}
+
+.animate-slide-in-1 {
+    animation: slideInFromUp 0.5s ease-out;
+}
+
+.animate-slide-in-2 {
+    animation: slideInFromDown 0.5s ease-out;
+}
+
+.animate-slide-in-3 {
+    animation: slideInFromRight 0.5s ease-out;
+}
+
+
+@media (max-width: 768px) {
+
+    .team-section .bg-white {
+        background-color: #091627 !important;
+        transform: scale(1.05);
+        color: white;
+        cursor: pointer;
+    }
+
+    .team-section .bg-white .social-link {
+        color: blue;
+        background-color: white;
+    }
+    .team-section .bg-white .small.text-uppercase.text-muted {
+        color: white !important;
+    }
+    
+    .social-link,
+    .social-link:focus {
+        text-decoration: none;
+        transform: scale(1.08);
+    
+    }
+
 }

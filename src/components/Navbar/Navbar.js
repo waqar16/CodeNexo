@@ -23,11 +23,11 @@ function Navbar() {
     <div>
       <nav className={`navbar navbar-expand-lg ${scrolling ? 'navbar-scroll' : ''}`}>
         <div className="container-fluid">
-          <img className='navbar-brand' src={'/Assets/logo/logo-main.png'} height={150} width={200} alt="logo" />
+        <img className='navbar-brand' src={'/Assets/logo/logo-main.png'} height={150} width={200} alt="logo" />
           <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <i className="fas fa-bars"></i>
           </button>
-          <div className="collapse navbar-collapse float-right" id="navbarNavDropdown">
+          <div className="collapse navbar-collapse float-right bg-custom" id="navbarNavDropdown">
             <ul className="navbar-nav nav-alignment">
               <li className="nav-item mx-3">
                 <a className="nav-link active nav-item-link" aria-current="page" href="#home">Home</a>

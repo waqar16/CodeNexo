@@ -21,7 +21,8 @@ function Carousel() {
 
     return (
         <>
-            <h2 id="carousel-head">What <strong>Technologies</strong> we are using</h2>
+        <div className="container custom-margin">
+            <h2 className="contact-head">Technological Experties</h2>
             <div className="slider">
                 <div className="slide-track" ref={slideTrackRef}>
                     <div className="slide">
@@ -40,6 +41,7 @@ function Carousel() {
                         <img src="Assets/technologies/sql.png" height="130" width="350" alt="" />
                     </div>
                 </div>
+            </div>
             </div>
         </>
     );

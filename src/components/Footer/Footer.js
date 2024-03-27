@@ -7,7 +7,7 @@ function Footer() {
 <div>
 <footer className="footer-section">
         <div className="container">
-            <div className="footer-cta pt-5 pb-5">
+            {/* <div className="footer-cta pt-5 pb-5">
                 <div className="row">
                     <div className="col-xl-4 col-md-4 mb-30">
                         <div className="single-cta">
@@ -37,7 +37,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="footer-content pt-5 pb-5">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 mb-50">
@@ -100,7 +100,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div className="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="/">CodeNexo</a></p>
+                            <p>Copyright &copy; 2024, All Right Reserved <a href="/">CodeNexo</a></p>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
