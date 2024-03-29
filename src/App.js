@@ -35,13 +35,15 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <div className="bg-image">
+
+      <div>
         <Navbar />
       </div>
+
       <div>
         <Home />
-
       </div>
+
       <div ref={el => cardRefs.current.push(el)}>
         <Carousel />
       </div>
@@ -53,17 +55,18 @@ function App() {
       <div ref={el => cardRefs.current.push(el)}>
         <Team />
       </div>
+
       <div ref={el => cardRefs.current.push(el)}>
         <Contact />
       </div>
-      {/* <div>
+
+      <div ref={el => cardRefs.current.push(el)}>
         <Testimonials />
-      </div> */}
+      </div>
+
       <div>
         <Footer />
       </div>
-
-
 
     </div>
 

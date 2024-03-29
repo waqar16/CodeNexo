@@ -1,7 +1,7 @@
 .card {
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     height:90%;
-    padding: 40px 20px;
+    padding: 50px 10px;
     text-align: center;
     transition: 0.3s;
     border-radius: 5px;
@@ -35,7 +35,7 @@
     background-color: #28a745;
 }
 
-.card.border-yellow:hover {
+.card.border-pink:hover {
     background-color: #d63384;
 }
 
@@ -49,6 +49,18 @@
 
 .card.border-purple:hover {
     background-color: #6f42c1;
+    color: white;
+}
+
+
+span {
+    font-size: medium;
+}
+
+span:hover {
+    font-size: large;
+    color: white; 
+    transition: 0.5s; 
 }
 
 .cardTitle {
@@ -83,7 +95,7 @@
     border-bottom: 3px solid #28a745;
 }
 
-.border-yellow {
+.border-pink {
     border-bottom: 3px solid #d63384;
 }
 

@@ -1,21 +1,22 @@
 import React from "react";
-import './Home.css';
+import styles from './Home.module.css'
+
 
 function Home() {
     return (
-        <>
-            <div className="content">
+        <div className={`${styles.bgImage}`} >
+            <div className={`${styles.content}`}>
                 <div>
-                    <h1 className="headline slide-in">
+                    <h1 className={`${styles.h1} ${styles.headline} ${styles.slideIn}`}>
                         We Build Digital Products That Power Businesses
                     </h1>
-                     <h4 className="tagline fade-in">
-                        <span>Our products help businesses improve, connect and empower their business processes.</span>
+                     <h4 className={`${styles.tagline} ${styles.fadeIn}`}>
+                        <span className={`${styles.span}`}>Our products help businesses improve, connect and empower their business processes.</span>
                      </h4>
-                     <button type="button" className="btn custom-btn-contact slide-in" >Learn more</button>
+                     <a type="button" className={`btn ${styles.customBtn} ${styles.slideIn}`} >Learn more</a>
                  </div>
             </div>
-        </>
+        </div>
     );
 }
 

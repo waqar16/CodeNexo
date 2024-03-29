@@ -1,0 +1,120 @@
+.customNavbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  z-index: 9999;
+  transition: background-color 0.3s ease !important;
+}
+
+.navBrand {
+  user-select: none;
+  cursor: pointer;
+}
+
+.customToggler {
+  color: white; 
+  outline: 2px solid white; 
+}
+
+.navbarScroll {
+  background-color: #091627;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navAlignment {
+  margin: auto;
+}
+
+.navItem .dropdown:hover .customDropdown {
+  display: block;
+}
+
+.dropdownItem:hover {
+  background-color: #ebc51c;
+  color: black;
+}
+
+.navbarNav .navItem .navLink {
+  color: white !important;
+  font-size: 18px !important;
+  position: relative !important;
+}
+
+.navbarNav .navItem .navLinkActive {
+  color: #ebc51c !important;
+}
+
+.navbarNav .navItem .navLink::before {
+  content: '';
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  width: 0; /* Initial width is 0 */
+  height: 1.5px; /* Thickness of the line */
+  background-color: #ebc51c;
+  transition: width 0.3s ease; /* Add transition for width */
+  right: 100%; /* Initial position */
+}
+
+.navbarNav .navItem .navLink:hover::before {
+  width: 100% !important; /* Expand width to 100% on hover */
+}
+
+.mxCustom {
+  margin-left: 25px;
+}
+
+.customSize {
+  width: 80%;
+  margin-top: 70px;
+}
+
+.customBtn {
+  text-decoration: none;
+  width: 180px;
+  height: 40px;
+  background-color: #ebc51c;
+  color: black;
+  font-weight: 500;
+  border-width: 2px;
+  border-radius: 22px;
+  transition: 0.5s ease;
+  font-size: 16px !important;
+  text-align: center;
+
+}
+
+.customBtn:hover {
+  color: white;
+  border-width: 2px;
+  background-color: transparent;
+  border-color: #ebc51c !important;
+  transition: 0.5s ease;
+  font-size: 16px !important;
+}
+
+@media (max-width: 768px) {
+  .customNavbar {
+    position:fixed;
+      margin-top: -30px;
+      height: 140px;
+  }
+
+  .navbarScroll {
+      background-color: #091627;
+      /* margin-top: -30px; */
+      height: 130px;
+  }
+
+  .bgCustom {
+      background-color: #091627;
+      border-radius: 3%; 
+      padding: 10px;
+  }
+
+  .customBtn {
+      margin: 0;
+  }
+}

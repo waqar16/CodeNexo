@@ -11,14 +11,14 @@
     text-align: center;
   }
   
-  .content h1 {
+  .content .h1 {
     font-size: 48px !important;
     font-weight: 800 !important;
   }
   
-  .content p {
-    font-size: 1.5rem; /* Adjust the font size as needed */
-  }
+  /* .content p {
+    font-size: 1.5rem;
+  } */
 
   .content {
     margin-top: 30px;
@@ -29,7 +29,7 @@
     /* align-items: center; */
   }
 
-  .slide-in {
+  .slideIn {
     opacity: 0;
     animation: slideIn 1.5s forwards;
   }
@@ -45,7 +45,7 @@
     }
   }
   
-  .fade-in {
+  .fadeIn {
     opacity: 0; /* Start with text hidden */
     animation: fadeIn 2.5s forwards; /* Apply animation */
   }
@@ -59,7 +59,7 @@
     }
   }
 
-  .bg-image {
+  .bgImage {
     background-image: url('../../../public/Assets/background-image/bg-image.jpg');
     position: relative;
     background-position: 50% !important;
@@ -71,7 +71,7 @@
     justify-content: flex-start;
   }
   
-  .bg-image::before {
+  .bgImage::before {
     content: '';
     position: absolute;
     top: 0;
@@ -81,24 +81,29 @@
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the RGBA values and opacity as needed */
   }
   
-  .custom-btn-contact {
-    margin-top: 30px;
-    width: 200px;
+  .customBtn {
+    margin-top: 20px;
+    text-decoration: none;
+    width: 180px;
+    height: 40px;
     background-color: #ebc51c;
     color: black;
     font-weight: 500;
     border-width: 2px;
     border-radius: 22px;
     transition: 0.5s ease;
-    font-size: 18px !important;
+    font-size: 16px !important;
+    text-align: center;
   
   }
   
-  .custom-btn-contact:hover {
+  .customBtn:hover {
+    color: white;
     border-width: 2px;
-    border-color: #ebc51c;
+    background-color: transparent;
+    border-color: #ebc51c !important;
     transition: 0.5s ease;
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
   /* Media query for mobile screens */
@@ -109,15 +114,15 @@
     top: 50%
   }
 
-  .content h1 {
+  .content .h1 {
     font-size: 33px !important;
   }
 
-  .content span {
+  .content .span {
     font-size: 18px !important;
   }
 
-  .custom-btn-contact {
+  .customBtn {
     width: 150px;
   }
 }
