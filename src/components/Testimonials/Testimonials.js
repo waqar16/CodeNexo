@@ -17,8 +17,8 @@ function Testimonials() {
 
         <div className="container overflow-hidden">
           <div className="row gy-4 gy-md-0 gx-xxl-5">
-            <div className=" col-12 col-md-4">
-              <div className="card border-0 border-bottom border-primary shadow-sm">
+            <div className=" col-12 col-md-4 ">
+              <div className="card border-0 border-bottom border-primary shadow-sm bg-light">
                 <div className="card-body p-4 p-xxl-5">
                   <figure>
                     <img
@@ -30,7 +30,7 @@ function Testimonials() {
                     />
                     <figcaption>
                       <div className="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
-                      <blockquote className="bsb-blockquote-icon mb-4">Nam ultricies, ex lacinia dapibus faucibus, sapien ipsum euismod massa, at aliquet erat turpis quis diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>
+                      <blockquote className=" mb-4">Nam ultricies, ex lacinia dapibus faucibus, sapien ipsum euismod massa, at aliquet erat turpis quis diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>
                       <h4 className="mb-2">Luna John</h4>
                       <h5 className="fs-6 text-secondary mb-0">UX Designer</h5>
                     </figcaption>
@@ -39,7 +39,7 @@ function Testimonials() {
               </div>
             </div>
             <div className="col-12 col-md-4">
-              <div className="review-01 card border-0 border-bottom border-primary shadow-sm">
+              <div className="review-01 card border-0 border-bottom border-primary shadow-sm bg-light">
                 <div className="card-body p-4 p-xxl-5">
                   <figure>
                     <img
@@ -51,7 +51,7 @@ function Testimonials() {
                     />
                     <figcaption>
                       <div className="bsb-ratings text-warning mb-3" data-bsb-star="4" data-bsb-star-off="1"></div>
-                      <blockquote className="bsb-blockquote-icon mb-4">Nam ultricies, ex lacinia dapibus faucibus, sapien ipsum euismod massa, at aliquet erat turpis quis diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>
+                      <blockquote className=" mb-4">Nam ultricies, ex lacinia dapibus faucibus, sapien ipsum euismod massa, at aliquet erat turpis quis diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>
                       <h4 className="mb-2">Mark Smith</h4>
                       <h5 className="fs-6 text-secondary mb-0">Marketing Specialist</h5>
                     </figcaption>
@@ -60,7 +60,7 @@ function Testimonials() {
               </div>
             </div>
             <div className="col-12 col-md-4">
-              <div className="card border-0 border-bottom border-primary shadow-sm">
+              <div className="card border-0 border-bottom border-primary shadow-sm bg-light">
                 <div className="card-body p-4 p-xxl-5">
                   <figure>
                     <img
@@ -72,7 +72,7 @@ function Testimonials() {
                     />
                     <figcaption>
                       <div className="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
-                      <blockquote className="bsb-blockquote-icon mb-4">Nam ultricies, ex lacinia dapibus faucibus, sapien ipsum euismod massa, at aliquet erat turpis quis diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>
+                      <blockquote className=" mb-4">Nam ultricies, ex lacinia dapibus faucibus, sapien ipsum euismod massa, at aliquet erat turpis quis diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>
                       <h4 className="mb-2">Luke Reeves</h4>
                       <h5 className="fs-6 text-secondary mb-0">Sales Manager</h5>
                     </figcaption>

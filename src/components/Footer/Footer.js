@@ -46,8 +46,7 @@ function Footer() {
                                 <a href="index.html"><img src="/Assets/logo/logo-main.png" className="img-fluid" alt="logo"/></a>
                             </div>
                             <div className="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                <p>CodeNexo! Your premier destination for innovative software solutions. We specialize in custom development, web and mobile apps, and cloud solutions. With a dedicated team of experts, we empower businesses to thrive in the digital landscape.</p>
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>

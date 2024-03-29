@@ -12,13 +12,14 @@
   }
   
   .content .h1 {
+    font-family: 'Georgia', 'Times New Roman', serif;
     font-size: 48px !important;
     font-weight: 800 !important;
   }
   
-  /* .content p {
-    font-size: 1.5rem;
-  } */
+  .content .span {
+    font-size: 1.3rem;
+  }
 
   .content {
     margin-top: 30px;
@@ -59,19 +60,26 @@
     }
   }
 
-  .bgImage {
-    background-image: url('../../../public/Assets/background-image/bg-image.jpg');
+.bgVideo {
     position: relative;
-    background-position: 50% !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
     height: 100vh;
     min-height: 35rem;
     padding: 15rem 0;
     justify-content: flex-start;
-  }
-  
-  .bgImage::before {
+    overflow: hidden; /* Ensure the video doesn't overflow its container */
+}
+
+.bgVideo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+    z-index: -1; /* Place the video behind other content */
+}
+
+.bgVideo::before {
     content: '';
     position: absolute;
     top: 0;
@@ -79,7 +87,8 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the RGBA values and opacity as needed */
-  }
+    z-index: 0; /* Ensure the overlay is behind the video */
+}
   
   .customBtn {
     margin-top: 20px;
@@ -111,7 +120,7 @@
   .content {
     width: 100%;
     padding: 20px;
-    top: 50%
+    top: 45%
   }
 
   .content .h1 {
@@ -119,7 +128,9 @@
   }
 
   .content .span {
-    font-size: 18px !important;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px !important;
   }
 
   .customBtn {

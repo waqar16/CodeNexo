@@ -15,7 +15,7 @@
 
 .customToggler {
   color: white; 
-  outline: 2px solid white; 
+  outline: none !important; 
 }
 
 .navbarScroll {
@@ -116,5 +116,11 @@
 
   .customBtn {
       margin: 0;
+
+  }
+
+  .customToggler {
+    color: white; 
+    outline: none !important; 
   }
 }

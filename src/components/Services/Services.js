@@ -59,7 +59,7 @@ function Services() {
                         <div className="cardTitle">Training Courses</div>
                         <div className="container">
                             <p className="cardText">Specialized training courses designed to enhance your skills and knowledge in specific areas of technology.</p>
-                            <span>Learn more <i class="fas fa-arrow-right"></i></span>
+                            <span>Learn more <i className="fas fa-arrow-right"></i></span>
 
                         </div>
                     </div>
