@@ -35,6 +35,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <header className="App-header">
 
       <div>
         <Navbar />
@@ -68,7 +69,9 @@ function App() {
         <Footer />
       </div>
 
+      </header>
     </div>
+ 
 
   );
 }
