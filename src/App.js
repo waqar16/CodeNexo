@@ -20,7 +20,7 @@ function App() {
         }
       });
     }, {
-      threshold: 0.1 // Adjust as needed
+      threshold: 0.1
     });
 
     cardRefs.current.forEach(cardRef => {
