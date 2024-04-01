@@ -34,19 +34,19 @@ function Carousel() {
                 <div className="slider">
                     <div className="slide-track" ref={slideTrackRef}>
                         <div className="slide">
-                            <img src="Assets/technologies/django.png" height="150" width="350" alt="" />
+                            <img src="/Assets/technologies/django.png" height="150" width="350" alt="" />
                         </div>
                         <div className="slide">
-                            <img src="Assets/technologies/react.png" height="130" width="330" alt="" />
+                            <img src="/Assets/technologies/react.png" height="130" width="330" alt="" />
                         </div>
                         <div className="slide">
-                            <img src="Assets/technologies/mongodb.png" height="160" width="370" alt="" />
+                            <img src="/Assets/technologies/mongodb.png" height="160" width="370" alt="" />
                         </div>
                         <div className="slide">
-                            <img src="Assets/technologies/flask.png" height="150" width="350" alt="" />
+                            <img src="/Assets/technologies/flask.png" height="150" width="350" alt="" />
                         </div>
                         <div className="slide">
-                            <img src="Assets/technologies/sql.png" height="130" width="350" alt="" />
+                            <img src="/Assets/technologies/sql.png" height="130" width="350" alt="" />
                         </div>
                     </div>
                 </div>
