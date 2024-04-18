@@ -51,8 +51,8 @@ function Footer() {
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
                                 <a href="#"><i className="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i className="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i className="fab fa-google-plus-g google-bg"></i></a>
+                                <a href="#"><i className="fab fa-instagram twitter-bg"></i></a>
+                                <a href="#"><i className="fab fa-linkedin-in linkedin-bg"></i></a>
                             </div>
                         </div>
                     </div>

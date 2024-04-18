@@ -24,7 +24,7 @@ function Team() {
                             <span className="small text-uppercase text-muted">CEO - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-twitter"></i></a></li>
+                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
@@ -37,7 +37,7 @@ function Team() {
                             <span className="small text-uppercase text-muted">CEO - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-twitter"></i></a></li>
+                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
@@ -50,7 +50,7 @@ function Team() {
                             <span className="small text-uppercase text-muted">CEO - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-twitter"></i></a></li>
+                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
@@ -63,7 +63,7 @@ function Team() {
                             <span className="small text-uppercase text-muted">CEO - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-twitter"></i></a></li>
+                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li>
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>

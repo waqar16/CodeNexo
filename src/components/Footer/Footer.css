@@ -78,10 +78,11 @@ ul {
   background: #3B5998;
 }
 .twitter-bg{
-  background: #55ACEE;
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+
 }
-.google-bg{
-  background: #DD4B39;
+.linkedin-bg{
+  background: #0070B5;
 }
 .footer-widget-heading h3 {
   color: #fff;
