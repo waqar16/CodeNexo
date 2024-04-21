@@ -31,7 +31,7 @@ function Carousel() {
                         </div>
                     </div>
                 </div>
-                <div className="slider">
+                <div className="slider ">
                     <div className="slide-track" ref={slideTrackRef}>
                         <div className="slide">
                             <img src="/Assets/Technologies/django.png" height="150" width="350" alt="" />

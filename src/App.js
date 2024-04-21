@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import Testimonials from "./components/Testimonials/Testimonials";
+// import Testimonials from "./components/Testimonials/Testimonials";
 import Carousel from "./components/Carousel/Carousel";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
@@ -11,6 +11,7 @@ import Careers from "./components/Careers/Careers"
 
 
 import React, { useEffect, useRef } from "react";
+// import { Router } from "react-router-dom";
 
 function App() {
   const cardRefs = useRef([]);
@@ -37,52 +38,58 @@ function App() {
       });
     };
   }, []);
+
+  
+  
   return (
-    <div className="App">
+    
+    <section className="App">
       <header className="App-header">
 
-      <div>
+      <section>
         <Navbar />
-      </div>
+      </section>
 
-      <div>
+      <section id="home">
         <Home />
-      </div>
+      </section>
 
-      <div ref={el => cardRefs.current.push(el)}>
+      <section id="tech" ref={el => cardRefs.current.push(el)}>
         <Carousel />
-      </div>
+      </section>
 
-      <div ref={el => cardRefs.current.push(el)}>
+      <section id="services" ref={el => cardRefs.current.push(el)}>
         <Services />
-      </div>
+      </section>
 
-      <div ref={el => cardRefs.current.push(el)}>
+      <section id="team" ref={el => cardRefs.current.push(el)}>
         <Team />
-      </div>
+      </section>
 
-      <div ref={el => cardRefs.current.push(el)}>
-        <Contact />
-      </div>
 
-      {/* <div ref={el => cardRefs.current.push(el)}>
+
+      {/* <section ref={el => cardRefs.current.push(el)}>
         <Testimonials />
-      </div> */}
+      </section> */}
 
-      <div ref={el => cardRefs.current.push(el)}>
+      <section id="careers" ref={el => cardRefs.current.push(el)}>
         <Careers />
-      </div>
+      </section>
 
-      <div ref={el => cardRefs.current.push(el)}>
+      <section id="about" ref={el => cardRefs.current.push(el)}>
         <About />
-      </div>
+      </section>
 
-      <div>
+      <section id="contact" ref={el => cardRefs.current.push(el)}>
+        <Contact />
+      </section>
+
+      <section>
         <Footer />
-      </div>
+      </section>
 
       </header>
-    </div>
+    </section>
  
 
   );

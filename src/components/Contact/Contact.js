@@ -70,7 +70,7 @@ function Contact() {
                         <div className="col-md-3" data-aos="fade-up" data-aos-delay="600">
                             <i className={`fas fa-envelope icon-large my-5 ${styles.iconLarge}`} style={{ color: '#dc3545' }}></i>
                             <h5>EMAIL</h5>
-                            <p>codenexo@gmail.com</p>
+                            <p>sales.codenexo@gmail.com</p>
                         </div>
                     </div>
 
