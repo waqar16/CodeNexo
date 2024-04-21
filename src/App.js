@@ -6,6 +6,10 @@ import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team/Team";
 import Services from "./components/Services/Services";
+import About from "./components/About/About"
+import Careers from "./components/Careers/Careers"
+
+
 import React, { useEffect, useRef } from "react";
 
 function App() {
@@ -61,8 +65,16 @@ function App() {
         <Contact />
       </div>
 
-      <div ref={el => cardRefs.current.push(el)}>
+      {/* <div ref={el => cardRefs.current.push(el)}>
         <Testimonials />
+      </div> */}
+
+      <div ref={el => cardRefs.current.push(el)}>
+        <Careers />
+      </div>
+
+      <div ref={el => cardRefs.current.push(el)}>
+        <About />
       </div>
 
       <div>

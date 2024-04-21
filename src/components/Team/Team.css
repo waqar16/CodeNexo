@@ -5,6 +5,7 @@
 
 .team-section .bg-white {
     transition: 0.7s, color 0.1s !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important;
     
 }
 
@@ -12,7 +13,7 @@
     background-color: #091627 !important;
     transform: scale(1.05);
     color: white;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .border{
@@ -31,10 +32,11 @@
     transition: all 0.3s;
     font-size: 0.9rem;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .team-section .bg-white:hover .social-link {
-    color: blue;
+    color: #091627;
     background-color: white;
 }
 .team-section .bg-white:hover .small.text-uppercase.text-muted {

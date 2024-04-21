@@ -5,109 +5,106 @@
     text-align: center;
     transition: 0.3s;
     border-radius: 5px;
+    background-color: white; /* Updated */
 }
 
 .card i {
     transition: color 0.3s ease;
-    color: white;
+    color: black; /* Updated */
 }
 
 .card span {
     transition: color 0.3s ease;
-    color: white;
+    color: black; /* Updated */
 }
+
 .card:hover span {
     transition: color 0.3s ease;
-    color: black;
+    color: white; /* Updated */
 }
 
 .card .cardTitle {
-    color: white;
+    color: black; /* Updated */
 }
+
 .card .cardText {
-    color: white;
+    color: black; /* Updated */
 }
 
 .card:hover i {
-    color: black;
+    color: white; /* Updated */
 }
 
 .card:hover {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    background-color: #2db6fa; /* Updated */
 }
 
 .card:hover .cardTitle {
-    color: black;
+    color: white; /* Updated */
 }
+
 .card:hover .cardText {
-    color: black;
+    color: white; /* Updated */
 }
 
 .card.border-blue {
-    background-color: #2db6fa;
+    background-color: white;
 }
 
-
 .card.border-green {
-    background-color: #28a745;
+    background-color: white;
 }
 
 .card.border-pink {
-    background-color: #d63384;
+    background-color: white;
 }
 
 .card.border-red {
-    background-color: #dc3545;
+    background-color: white;
 }
 
 .card.border-orange {
-    background-color: #fd7e14;
+    background-color: white;
 }
 
 .card.border-purple {
-    background-color: #6f42c1;
+    background-color: white;
 }
-
-
-
-
-
 
 .card.border-blue:hover {
-    background-color: white;
+    background-color: #2db6fa;
 }
 
-
 .card.border-green:hover {
-    background-color: white;
+    background-color: #28a745;
 }
 
 .card.border-pink:hover {
-    background-color: white;
+    background-color: #d63384;
 }
 
 .card.border-red:hover {
-    background-color: white;
+    background-color: #dc3545;
 }
 
 .card.border-orange:hover {
-    background-color: white;
+    background-color: #fd7e14;
 }
 
 .card.border-purple:hover {
-    background-color: white;
+    background-color: #6f42c1;
 }
-
 
 span {
     font-size: medium;
 }
 
-span:hover {
+.learnmore:hover {
     font-size: large;
-    color: black; 
-    transition: 0.5s; 
+    color: black;
+    transition: 0.5s;
 }
 
 .cardTitle {
@@ -116,7 +113,7 @@ span:hover {
     font-weight: 600;
     border-radius: 10px 10px 0 0;
     padding: 20px;
-    text-align: center; 
+    text-align: center;
     transition: color 0.5s ease;
 }
 
@@ -125,14 +122,13 @@ span:hover {
     font-size: 1.2rem;
     border-radius: 10px 10px 0 0;
     padding: 20px;
-    text-align: center; 
+    text-align: center;
     transition: color 0.5s ease;
 }
 
 .container {
     padding: 20px;
 }
-
 
 .border-blue {
     border-bottom: 3px solid #2db6fa;
@@ -159,52 +155,5 @@ span:hover {
 }
 
 @media (max-width: 768px) {
-
-    /* .card.border-blue {
-        background-color: #2db6fa;
-    }
-    
-    
-    .card.border-pink {
-        background-color: #d63384;
-    }
-
-    
-    .card.border-purple {
-        background-color: #6f42c1;
-    }
-    .border-blue i {
-        color: black;
-    }
-    
-    .border-blue .cardTitle {
-        color: black;
-    }
-    .border-blue .cardText {
-        color: black;
-    }
-
-    .border-purple i {
-        color: black;
-    }
-    
-    .border-purple .cardTitle {
-        color: black;
-    }
-    .border-purple .cardText {
-        color: black;
-    }
-
-    .border-pink i {
-        color: black;
-    }
-    
-    .border-pink .cardTitle {
-        color: black;
-    }
-    .border-pink .cardText {
-        color: black;
-    } */
-
-
+    /* no change abhi */
 }

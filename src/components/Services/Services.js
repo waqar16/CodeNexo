@@ -40,7 +40,7 @@ function Services() {
                             <p className="cardText">Create engaging mobile apps for iOS and Android platforms, tailored to your unique requirements.</p>
 
                         </div>
-                        
+
                     </div>
                 </div>
                 <div className="col-lg-4 mb-4">
@@ -48,7 +48,7 @@ function Services() {
                         <i className="fas fa-cube fa-3x mb-2"></i>
                         <div className=" cardTitle">Blockchain Development </div>
                         <div className="container">
-                            <p className="cardText">Secure and decentralized applications using blockchain technology for various use cases.</p>
+                            <p className="cardText">We craft secure, decentralized blockchain solutions for diverse industries, ensuring reliable performance and trust in the digital realm.</p>
 
                         </div>
                     </div>
@@ -56,10 +56,10 @@ function Services() {
                 <div className="col-lg-4 mb-4">
                     <div className="card border-purple">
                         <i className="fas fa-graduation-cap fa-3x mb-2"></i>
-                        <div className="cardTitle">Training Courses</div>
+                        <div className="cardTitle">Content Creation</div>
                         <div className="container">
-                            <p className="cardText">Specialized training courses designed to enhance your skills and knowledge in specific areas of technology.</p>
-                            <span>Learn more <i className="fas fa-arrow-right"></i></span>
+                            <p className="cardText">Our Content Creation and Designing service crafts engaging content and captivating designs to effectively communicate your brand's message.</p>
+                            {/* <span className="learnmore">Learn more <i className="fas fa-arrow-right"></i></span> */}
 
                         </div>
                     </div>
@@ -67,10 +67,10 @@ function Services() {
                 <div className="col-lg-4 mb-4">
                     <div className="card border-red">
                         <i className="fas fa-search fa-3x mb-2"></i>
-                        <div className=" cardTitle">Search Engine Optimization</div>
+                        <div className=" cardTitle">Digital Marketing</div>
                         <div className="container">
-                            <p className="cardText">Improve your website's visibility on search engine results pages through effective SEO strategies.</p>
-
+                            <p className="cardText">
+                                Enhance your website's digital presence and boost visibility across search engine results pages with strategic digital marketing tactics.</p>
                         </div>
                     </div>
                 </div>

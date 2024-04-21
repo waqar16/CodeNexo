@@ -1,0 +1,27 @@
+.job-section{
+    width: 100%;
+
+}
+
+.job-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a slight increase in box shadow on hover */
+  }
+
+
+  .btn-custom{
+    background-color: #091627;
+    color: white;
+  }
+
+  .btn-custom:hover{
+    border: 2px solid #091627;
+    color: #091627;
+  }
