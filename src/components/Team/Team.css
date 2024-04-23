@@ -116,7 +116,7 @@
 
     .team-section .bg-white {
         background-color: #091627 !important;
-        transform: scale(1.05);
+        /* transform: scale(1.05); */
         color: white;
         cursor: pointer;
     }
