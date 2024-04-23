@@ -14,7 +14,9 @@
   .job-card:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a slight increase in box shadow on hover */
   }
-
+.fa, .fas{
+  padding-bottom: 15px !important;
+}
 
   .btn-custom{
     background-color: #091627;

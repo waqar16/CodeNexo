@@ -34,7 +34,7 @@ function Contact() {
                                     <textarea className={`form-control ${styles.formControl}`} id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
                                 </div>
                                 <div className="col-md-12 text-center">
-                                    <a className={`btn my-4 ${styles.customBtn}`} type="submit" name="submit">Send Message</a>
+                                    <a className={`btn my-4 ${styles.customBtn}`} href="mailto: sales.codenexo@gmail.com" type="submit" name="submit">Send Message</a>
                                 </div>
                             </div>
                         </form>

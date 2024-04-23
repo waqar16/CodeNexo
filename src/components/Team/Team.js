@@ -24,7 +24,7 @@ function Team() {
                             <span className="small text-uppercase text-muted">CEO - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
                             <li className="list-inline-item"><a href="mailto:mubashirbabar10@gmail.com" className="social-link"><i className="fas fa-envelope"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
+                                {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
                                 <li className="list-inline-item"><a href="https://www.linkedin.com/in/mubashir-babar/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
@@ -37,7 +37,7 @@ function Team() {
                             <span className="small text-uppercase text-muted">Co - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="mailto:hamzaekhan99@gmail.com" className="social-link"><i className="fas fa-envelope"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
+                                {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
                                 <li className="list-inline-item"><a href="https://www.linkedin.com/in/muhammad-hamza-khan-328483223/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
@@ -50,7 +50,7 @@ function Team() {
                             <span className="small text-uppercase text-muted">Web Developer</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="mailto: wa4752928@gmail.com" className="social-link"><i className="fas fa-envelope"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
+                                {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
@@ -58,12 +58,12 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <img src="/Assets/image.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                             <h5 className="mb-0">Taimur Riaz</h5>
                             <span className="small text-uppercase text-muted">Sales Executive</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fas fa-envelope"></i></a></li>
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li>
+                                {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
                                 <li className="list-inline-item"><a href="https://www.linkedin.com/in/taimur-riaz-395119147/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>

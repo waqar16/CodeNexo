@@ -171,13 +171,13 @@ function Footer() {
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div className="copyright-text">
-                            <p>Copyright &copy; 2024, All Right Reserved <a href="/">CodeNexo</a></p>
+                            <p>Copyright &copy; 2024, All Right Reserved <a onClick={scrollToHome} href="/">CodeNexo</a></p>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div className="footer-menu">
                         <div className="copyright-text powered-by">
-                            <p>Powered by <a href="/">CodeNexo</a></p>
+                            <p>Powered by <a onClick={scrollToHome} href="/">CodeNexo</a></p>
                         </div> 
                             <ul>
                                 <li><a onClick={scrollToHome} href="#">Home</a></li>

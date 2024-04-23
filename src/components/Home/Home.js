@@ -10,6 +10,16 @@ function Home() {
     ];
 
     const randomVideoSource = videoSources[Math.floor(Math.random() * videoSources.length)];
+    const scrollToServices = (event) => {
+        event.preventDefault();
+        const careersSection = document.getElementById("services");
+        if (careersSection) {
+          window.scrollTo({
+            top: careersSection.offsetTop,
+            behavior: "smooth"
+          });
+        }
+      };
 
     return (
         <div className={`${styles.bgVideo}`}>
@@ -25,7 +35,7 @@ function Home() {
                     <h4 className={`${styles.tagline} ${styles.fadeIn}`}>
                         <span className={`${styles.span}`}>Our products help businesses improve, connect and empower their business processes.</span>
                     </h4>
-                    <a type="button" className={`btn ${styles.customBtn} ${styles.slideIn}`}>Learn more</a>
+                    <a type="button" onClick={scrollToServices} className={`btn ${styles.customBtn} ${styles.slideIn}`}>Learn more</a>
                 </div>
             </div>
         </div>
