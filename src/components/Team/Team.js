@@ -13,7 +13,7 @@ function Team() {
                             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
                                 <h2 className="fs-6 text-secondary mb-2 text-uppercase text-center">Our Team</h2>
                                 <p className="display-5 mb-4 mb-md-5 text-center">Meet our team of experts.</p>
-                                <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+                                {/* <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" /> */}
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ function Team() {
                                 <li className="list-inline-item"><a href="mailto: wa4752928@gmail.com" className="social-link"><i className="fas fa-envelope"></i></a></li>
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
-                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-linkedin"></i></a></li>
+                                <li className="list-inline-item"><a href="https://www.linkedin.com/in/waqar-khan-692849178/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
