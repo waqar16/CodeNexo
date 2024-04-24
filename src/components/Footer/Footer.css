@@ -34,6 +34,7 @@ ul {
   font-size: 15px;
 }
 .footer-content {
+  margin-bottom: -20px;
   position: relative;
   z-index: 2;
 }
@@ -58,7 +59,7 @@ ul {
   color: #7e7e7e;
   line-height: 28px;
 }
-.footer-social-icon span {
+.lets-connect{
   color: #fff;
   display: block;
   font-size: 20px;
@@ -66,6 +67,8 @@ ul {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
 }
+
+
 .footer-social-icon a {
   color: #fff;
   font-size: 16px;
@@ -165,6 +168,10 @@ ul {
   color: #878787;
 }
 
+.copyright-section p{
+  /* float: right !important; */
+  align-items:end;
+}
 
 
 @media (max-width: 768px) {
@@ -179,5 +186,13 @@ ul {
     color: #7e7e7e;
     line-height: 28px;
     text-align: center;
+  }
+
+  .copyright-text{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .copyright-section{
+    padding-top: 20px;
   }
 }
