@@ -6,7 +6,7 @@ function Home() {
         "/Assets/background-video/bg-video01.mp4",
         "/Assets/background-video/bg-video02.mp4",
         "/Assets/background-video/bg-video03.mp4",
-        "/Assets/background-video/bg-video04.mp4",
+        // "/Assets/background-video/bg-video04.mp4",
     ];
 
     const randomVideoSource = videoSources[Math.floor(Math.random() * videoSources.length)];
