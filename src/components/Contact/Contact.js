@@ -72,7 +72,8 @@ function Contact() {
                             <h5>EMAIL</h5>
                             <p>sales.codenexo@gmail.com</p>
                         </div>
-                    </div>
+                        
+                                        </div>
 
                 </div>
             </div>

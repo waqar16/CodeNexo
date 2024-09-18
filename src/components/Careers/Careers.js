@@ -25,8 +25,8 @@ function Careers() {
           <div className="col-md-4">
             <div className="job-card">
               <div className="job-icon"><i className="fas fa-chart-line"></i></div>
-              <h3>Sales Executive</h3>
-              <p>We are looking for a motivated Sales Executive to join our sales team...</p>
+              <h3>AI Engineer</h3>
+              <p>We are looking for a motivated AI Engineer to join our sales team...</p>
               <p><strong>No. of Positions:</strong> 1</p>
               <a href="mailto: sales.codenexo@gmail.com" className="btn btn-custom">Apply Now</a>
             </div>
@@ -34,8 +34,8 @@ function Careers() {
           <div className="col-md-4">
             <div className="job-card">
               <div className="job-icon"><i className="fas fa-paint-brush"></i></div>
-              <h3>UI/UX Designer</h3>
-              <p>Join our creative team as a UI/UX designer and help shape the user experience...</p>
+              <h3>Mobile Developer</h3>
+              <p>Join our creative team as a Mobile Developer and help shape the user experience...</p>
               <p><strong>No. of Positions:</strong> 1</p>
               <a href="mailto: sales.codenexo@gmail.com" className="btn btn-custom">Apply Now</a>
             </div>

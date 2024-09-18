@@ -19,7 +19,7 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/D5603AQGxYk3Thr7-Qw/profile-displayphoto-shrink_800_800/0/1700244417494?e=1718841600&v=beta&t=g8WI1o6U-06EyC5KRUiHyh3ffrNHV6HKvFSQt0FqsvE" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <img src="https://media.licdn.com/dms/image/v2/D5603AQGxYk3Thr7-Qw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700244417494?e=1732147200&v=beta&t=-DEGy10en4ZZ-mTlCEovpVhnzwsMk2CAaEixm-PBogU" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                             <h5 className="mb-0">Mubashir Babar</h5>
                             <span className="small text-uppercase text-muted">CEO - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
@@ -32,7 +32,7 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5" >
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/C5603AQGBo3KMTdxSdw/profile-displayphoto-shrink_800_800/0/1634062893925?e=1718841600&v=beta&t=GjJolPBWf8l3iYLhFqqLxIutIQUu5GL7iiZuzyaxwwk" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <img src="https://media.licdn.com/dms/image/v2/C5603AQGBo3KMTdxSdw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1634062893925?e=1732147200&v=beta&t=ij4eaFEIuxxjEde-ZgawEtNvbtO01OH5pWajJt5Ih9E" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                             <h5 className="mb-0">M Hamza Khan</h5>
                             <span className="small text-uppercase text-muted">Co - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
@@ -45,9 +45,9 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/D4D03AQFMW62fiOYGgw/profile-displayphoto-shrink_800_800/0/1707660203143?e=1718841600&v=beta&t=ekkMuc6BigXijmkCNHMtKCdlvZ-OfsI2kf0OvOqR4e4" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQHFXVs6sbt1yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726433174239?e=1732147200&v=beta&t=e23Ofy02Zn8EzpTHy3o0oSf2mMbFMrqA6aDWDNfsYeU" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                             <h5 className="mb-0">Waqar Khan</h5>
-                            <span className="small text-uppercase text-muted">Web Developer</span>
+                            <span className="small text-uppercase text-muted">Full Stack Developer</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="mailto: wa4752928@gmail.com" className="social-link"><i className="fas fa-envelope"></i></a></li>
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
@@ -58,14 +58,27 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="/Assets/image.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 className="mb-0">Taimur Riaz</h5>
-                            <span className="small text-uppercase text-muted">Sales Executive</span>
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQEdya_8MOVnxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702865169414?e=1732147200&v=beta&t=H49eSlHLOmiw88UH9_-ebpa_5DlR_WDn1gJrJdq386o" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <h5 className="mb-0">Tayyab Ellahi</h5>
+                            <span className="small text-uppercase text-muted">Python AI Intern</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fas fa-envelope"></i></a></li>
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
-                                <li className="list-inline-item"><a href="https://www.linkedin.com/in/taimur-riaz-395119147/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
+                                <li className="list-inline-item"><a href="https://www.linkedin.com/in/tayyab-ellahi-ba77b7294/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-sm-6 mb-5">
+                        <div className="bg-white rounded shadow-sm py-5 px-4 border">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQH_wJwm8MvzlA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706897765659?e=1732147200&v=beta&t=gfakYzTcJOyeEu8oY-ZJwpU85UhPxhjIZYHEUG5C67M" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <h5 className="mb-0">Saim Shehzad</h5>
+                            <span className="small text-uppercase text-muted">Mern Stack Developer</span>
+                            <ul className="social mb-0 list-inline mt-3">
+                                <li className="list-inline-item"><a href="#" className="social-link"><i className="fas fa-envelope"></i></a></li>
+                                {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
+                                {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
+                                <li className="list-inline-item"><a href="https://www.linkedin.com/in/saim-shahzad-476bba25b/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
