@@ -67,7 +67,7 @@ function Navbar() {
       <nav className={`navbar ${styles.customNavbar} navbar-expand-lg ${scrolling ? styles.navbarScroll : ''}`}>
         <div className="container-fluid">
           
-          <img className={`navbar-brand ${styles.navBrand}`} onClick={() => scrollToSection('home')} src={'/assets/logo/logo-main.png'} height={150} width={200} alt="logo" />
+          <img className={`navbar-brand ${styles.navBrand}`} onClick={() => scrollToSection('home')} src={process.env.PUBLIC_URL + '/assets/logo/logo-main.png'} height={150} width={200} alt="logo" />
           <button className={`navbar-toggler ${styles.customToggler}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <i className="fas fa-bars"></i>
           </button>
