@@ -19,9 +19,9 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/v2/D5603AQGxYk3Thr7-Qw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700244417494?e=1732147200&v=beta&t=-DEGy10en4ZZ-mTlCEovpVhnzwsMk2CAaEixm-PBogU" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <img src="/Assets/Team/mubashir.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                             <h5 className="mb-0">Mubashir Babar</h5>
-                            <span className="small text-uppercase text-muted">CEO - Founder</span>
+                            <span className="small text-uppercase text-muted">Team Lead</span>
                             <ul className="social mb-0 list-inline mt-3">
                             <li className="list-inline-item"><a href="mailto:mubashirbabar10@gmail.com" className="social-link"><i className="fas fa-envelope"></i></a></li>
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
@@ -32,7 +32,7 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5" >
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/v2/C5603AQGBo3KMTdxSdw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1634062893925?e=1732147200&v=beta&t=ij4eaFEIuxxjEde-ZgawEtNvbtO01OH5pWajJt5Ih9E" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <img src="/Assets/Team/hamza.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                             <h5 className="mb-0">M Hamza Khan</h5>
                             <span className="small text-uppercase text-muted">Co - Founder</span>
                             <ul className="social mb-0 list-inline mt-3">
@@ -45,8 +45,8 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQHFXVs6sbt1yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726433174239?e=1732147200&v=beta&t=e23Ofy02Zn8EzpTHy3o0oSf2mMbFMrqA6aDWDNfsYeU" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 className="mb-0">Waqar Khan</h5>
+                            <img src="/Assets/Team/waqar.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <h5 className="mb-0">Waqar Khan</h5>    
                             <span className="small text-uppercase text-muted">Full Stack Developer</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="mailto: wa4752928@gmail.com" className="social-link"><i className="fas fa-envelope"></i></a></li>
@@ -58,20 +58,20 @@ function Team() {
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQEdya_8MOVnxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702865169414?e=1732147200&v=beta&t=H49eSlHLOmiw88UH9_-ebpa_5DlR_WDn1gJrJdq386o" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                            <h5 className="mb-0">Tayyab Ellahi</h5>
-                            <span className="small text-uppercase text-muted">Python AI Intern</span>
+                            <img src="/Assets/Team/amir.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <h5 className="mb-0">Amir Ejaz</h5>
+                            <span className="small text-uppercase text-muted">AI Engineer</span>
                             <ul className="social mb-0 list-inline mt-3">
                                 <li className="list-inline-item"><a href="#" className="social-link"><i className="fas fa-envelope"></i></a></li>
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-github"></i></a></li> */}
                                 {/* <li className="list-inline-item"><a href="#" className="social-link"><i className="fab fa-instagram"></i></a></li> */}
-                                <li className="list-inline-item"><a href="https://www.linkedin.com/in/tayyab-ellahi-ba77b7294/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
+                                <li className="list-inline-item"><a href="https://www.linkedin.com/in/amir-aijaz-01a134233/" className="social-link"><i className="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-xl-3 col-sm-6 mb-5">
                         <div className="bg-white rounded shadow-sm py-5 px-4 border">
-                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQH_wJwm8MvzlA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706897765659?e=1732147200&v=beta&t=gfakYzTcJOyeEu8oY-ZJwpU85UhPxhjIZYHEUG5C67M" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                            <img src="/Assets/Team/saim.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                             <h5 className="mb-0">Saim Shehzad</h5>
                             <span className="small text-uppercase text-muted">Mern Stack Developer</span>
                             <ul className="social mb-0 list-inline mt-3">
